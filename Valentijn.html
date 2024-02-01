@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentijn</title>
+    <style>
+        body {
+            display: flex;
+            background-image: url(images/background.jpg);
+            background-repeat:repeat-x;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h1 {
+            font-family: 'Vivaldi'; 
+            font-size: 40px; /* Aangepaste grootte */
+            color: white;
+            margin: 5px 0; /* Aangepaste marge */
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 10px; /* Aangepaste marge */
+        }
+
+        button {
+            margin-top: 10px;
+            margin-right: 20px;
+            background-color: pink;
+            color: white;
+            padding: 10px 15px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        img {
+            width: 300px; /* Aangepaste breedte */
+            height: auto;
+            margin-top: 10px; /* Aangepaste marge */
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello wifey</h1>
+    <img src="./images/Homepage.JPG" alt="Afbeelding">
+    <h1>Wil je mijn valentijn zijn?</h1>
+
+    <form action="ja.html">
+        <button type="submit">Ja</button>
+        <button type="button" onclick="window.location.href='nee.html'">Nee</button>
+    </form>
+</body>
+</html>
